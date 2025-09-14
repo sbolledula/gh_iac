@@ -6,7 +6,7 @@ on:
     workflow_dispatch:
 
 env:
-    AZURE_RESOURCE_GROUP: 'myResourceGroup'
+    AZURE_RESOURCE_GROUP: 'myghRG'
     AZURE_STORAGE_ACCOUNT: 'mystorageaccount${{ github.run_number }}'
     LOCATION: 'eastus'
 
