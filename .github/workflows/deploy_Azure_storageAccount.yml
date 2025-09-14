@@ -7,7 +7,7 @@ on:
 
 env:
     AZURE_RESOURCE_GROUP: 'myghRG'
-    AZURE_STORAGE_ACCOUNT: 'mystorageaccount${{ github.run_number }}'
+    AZURE_STORAGE_ACCOUNT: 'sridharbghmystorageaccount${{ github.run_number }}'
     LOCATION: 'eastus'
 
 jobs:
