@@ -26,6 +26,5 @@ jobs:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP }}
           template: ./StorageAccount/azuredeploy.json
-          parameters: ./StorageAccount/azuredeploy.parameters.json
-# parameters: storageAccountName=${{ env.AZURE_STORAGE_ACCOUNT }} location=${{ 
+          parameters: ./StorageAccount/azuredeploy.parameters.json 
           failOnStdErr: false
